@@ -1,0 +1,37 @@
+table{
+    table-layout: fixed;
+
+    background-color: #dbdada; /* Cambia #F0F0F0 al color que desees */
+  }
+
+a{
+    border: 1px solid #000;
+    text-decoration: none;
+    color:black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #08eb00; /*#00c7eb*/
+
+    
+}
+
+body{
+    background-color: #6bb97e; /*#6bb9b5*/
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.formulario{
+    border: 5px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    text-align: center; /* Centra el contenido del div horizontalmente */
+    
+}

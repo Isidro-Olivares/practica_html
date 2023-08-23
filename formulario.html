@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contacto</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	</head>
+
+	<body>
+		<div class="nav">
+			<a href="formulario.html">Formulario</a>
+			<a href="index.html">Index</a>
+		</div>
+		<p></p>
+		<div class="formulario">
+			<form method="get" action="formulario.html">
+				<label for="nombre">Nombre:</label>
+				<input type="text" placeholder="Isidro Olivares" required name="nombre" id="nombre">
+				<p></p>
+				<label for="correo">Correo:</label>
+				<input type="email" placeholder="Isidro@gmail.com" required name="correo" id="correo">
+				<p></p>
+				<label>Genero:</label>
+				<input type="radio" id="masculino" name="genero" value="masculino" checked>Masculino
+				<input type="radio" id="femenino" name="genero" value="femenino">Femenino
+				<input type="radio" id="otro" name="genero" value="otro">Otro
+				<p></p>
+				<label for="contrasena">Contraseña:</label>
+				<input type="password" required name="contrasena" id="contrasena">
+				<p></p>
+				<label for="areaTexto">Comentario:</label>
+				<br>
+				<textarea placeholder="Agrega un comentario" name="areaTexto" id="areaTexto" rows="10" cols="40"></textarea>
+				<p></p>
+				
+				<label for="ciudad">Ciudad:</label>
+				<select>
+					<option value="guadalajara" name="ciudad" id="guadalajara">guadalajara</option>
+					<option value="zapopan" name="ciudad" id="guadalajara">zapopan</option>
+					<option value="tonala" name="ciudad" id="guadalajara">tonala</option>
+					<option value="tlajomulco" name="ciudad" id="guadalajara">tlajomulco</option>
+					<option value="otro" name="ciudad" id="guadalajara">otro</option>
+				</select>
+				<p></p>
+				<label for="contratar">Me interesa contratarte:</label>
+				<input type="checkbox" id="contratar" name="contratar">
+				<p></p>
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+	</body>
+
+</html>
