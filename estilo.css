@@ -10,13 +10,13 @@ a{
     color:black;
     padding: 5px 10px;
     border-radius: 10px;
-    background-color: #08eb00; /*#00c7eb*/
+    background-color: #00c7eb; /*#08eb00*/
 
     
 }
 
 body{
-    background-color: #6bb97e; /*#6bb9b5*/
+    background-color: #6bb9b5 ; /*#6bb97e*/
     padding-left: 20px;
     text-align: justify;
 }
